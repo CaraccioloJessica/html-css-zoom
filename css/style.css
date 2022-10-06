@@ -115,9 +115,23 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5px;
 }
 
 .fa-share-from-square{
   color: #4BC800;
+}
+
+/* footer right */
+.end{
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#end-mtng{
+  font-size: 10px;
+  color: red;
+  padding: 25px 15px;
+  background-color: #4A4A4A;
 }
