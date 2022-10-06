@@ -71,6 +71,9 @@ body{
   height: 60px;
   background-color: #222;
 
+  display: flex;
+  align-items: center;
+
   position: fixed;
   bottom: 0;
   left: 0;
@@ -79,11 +82,11 @@ body{
   color: #fff;
 }
 
+/* footer left */
 .mic-vid{
   width: 20%;
   display: flex;
   align-items: center;
-  margin-top: 10px;
   margin-left: 5px;
 }
 
@@ -93,15 +96,28 @@ body{
   text-align: center;
 }
 
-.mic-vid i{
+.mic-vid i, .zoom-btn i{
   font-size: 20px;
   margin-bottom: 5px;
 }
 
 .text{
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .up i{
   font-size: 10px;
+}
+
+/* footer center */
+.zoom-btn{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.fa-share-from-square{
+  color: #4BC800;
 }
