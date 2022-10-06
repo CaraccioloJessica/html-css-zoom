@@ -33,14 +33,37 @@ body{
   font-size: 12px;
 }
 
-
-
 /* main */
 #main-container{
-  width: calc(100% - 120px);
+  width: 100%;
   height: 100vh;
-  margin: 60px 60px 0;
+  margin: 60px 0 80px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.img-size{
+  width: 170;
+  height: 100px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.utente{
+  font-size: 11px;
+  padding: 5px;
+  color: #fff;
+  background-color:rgba(0, 0, 0, 0.4);
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
 
 
 
