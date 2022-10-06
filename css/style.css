@@ -21,6 +21,7 @@ body{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 
 .border-icon{
@@ -64,10 +65,6 @@ body{
   z-index: 2;
 }
 
-
-
-
-
 /* footer bar */
 #ftr-bar{
   width: 100%;
@@ -77,4 +74,5 @@ body{
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 8;
 }
