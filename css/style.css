@@ -75,4 +75,33 @@ body{
   bottom: 0;
   left: 0;
   z-index: 8;
+
+  color: #fff;
+}
+
+.mic-vid{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.icon{
+  margin-right: 10px;
+  margin-left:10px;
+  text-align: center;
+}
+
+.mic-vid i{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.text{
+  font-size: 11px;
+}
+
+.up i{
+  font-size: 10px;
 }
